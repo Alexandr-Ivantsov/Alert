@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = 'Alert'
+  s.name         = ''
   s.version      = '0.1.0'
   s.homepage     = 'https://github.com/Alexandr-Ivantsov/Alert'
   s.author       = { 'Alexandr Ivantsov' => 'alexandrivantsov.ios@gmail.com' }
