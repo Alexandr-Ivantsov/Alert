@@ -7,9 +7,9 @@
 
 import Foundation
 
-public struct AlertData {
-    let title: String
-    let message: String
+public struct AlertData: AlerDataProtocol {
+    public let title: String
+    public let message: String
     let actionTitle: String
     let actionHandler: (() -> Void)?
 }

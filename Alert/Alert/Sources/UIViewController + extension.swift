@@ -7,23 +7,15 @@
 
 import UIKit
 
-public enum AlertStyle {
-    case oneAction(AlertData)
-    case twoAction(CancellableAlertData)
-}
-
 public extension UIViewController {
-    func showAlert(with style: AlertStyle) {
-        switch style {
-        case .oneAction(let data):
-            let alertController = UIAlertController(title: data.title, message: data.message, preferredStyle: .alert)
+    func showAlert(with data: AlerDataProtocol) {
+        let alertController = UIAlertController(title: data.title, message: data.message, preferredStyle: .alert)
+        if let data = data as? AlertData {
             let action = UIAlertAction(title: data.actionTitle, style: .default) { _ in
                 data.actionHandler?()
             }
             alertController.addAction(action)
-            present(alertController, animated: true)
-        case .twoAction(let data):
-            let alertController = UIAlertController(title: data.title, message: data.message, preferredStyle: .alert)
+        } else if let data = data as? CancellableAlertData {
             let cancelAction = UIAlertAction(title: data.cancelActionTitle, style: .cancel) { _ in
                 data.cancelAction?()
             }
@@ -32,7 +24,7 @@ public extension UIViewController {
             }
             alertController.addAction(cancelAction)
             alertController.addAction(confirmAction)
-            present(alertController, animated: true)
         }
+        present(alertController, animated: true)
     }
 }

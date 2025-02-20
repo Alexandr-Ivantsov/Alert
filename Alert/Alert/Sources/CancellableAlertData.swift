@@ -7,9 +7,9 @@
 
 import Foundation
 
-public struct CancellableAlertData {
-    let title: String
-    let message: String
+public struct CancellableAlertData: AlerDataProtocol {
+    public let title: String
+    public let message: String
     let confirmActionTitle: String
     let cancelActionTitle: String
     let confirmAction: (() -> Void)?
