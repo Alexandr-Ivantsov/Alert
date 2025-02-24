@@ -4,7 +4,7 @@ let project = Project(
     name: "Alert",
     targets: [
         .target(
-            name: "Alert",
+            name: "Contacts",
             destinations: .iOS,
             product: .app,
             bundleId: "RI.Alert",
