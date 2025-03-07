@@ -14,5 +14,11 @@ import PackageDescription
 
 let package = Package(
     name: "Alert",
-    dependencies: []
+    products: [
+        .library(name: "Alert", targets: ["Alert"])
+    ],
+    dependencies: [],
+    targets: [
+        .target(name: "Alert", dependencies: [])
+    ]
 )

@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Install Tuist
+        run: brew install tuist
+
+      - name: Run Tests
+        run: tuist test
+
+      - name: Build Project
+        run: tuist build
+
+      - name: Notify if tests fail
+        if: failure()
+        run: echo "Tests failed, please fix the issues before pushing changes."
