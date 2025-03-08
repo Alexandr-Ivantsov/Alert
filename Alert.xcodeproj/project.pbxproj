@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B89EA558DC1BAB426879B90 /* AlerDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2E3E90D41C3551B037580 /* AlerDataProtocol.swift */; };
+		1061C7CC18E23BFF1D0529FF /* UIViewController + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373C60A4201EECED98BFAAF7 /* UIViewController + extension.swift */; };
 		2255EF220C4340A143D92946 /* Alert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA1316DD1459D4721A6E972E /* Alert.framework */; };
-		4374BCC709770A76012674A9 /* CancellableAlertData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88248EDC0AD01498F46F56A9 /* CancellableAlertData.swift */; };
-		535F22CD5D19CF89EC143D1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF08D72D141560E2CE0CE82A /* Preview Assets.xcassets */; };
-		55CB8AE5DC64921B91F93029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 261E8E059A19589B73C7B5C7 /* Assets.xcassets */; };
-		A19F61A67E4A4ABD228088B7 /* UIViewController + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F805E089E2B173F414269144 /* UIViewController + extension.swift */; };
+		38836C4FE307AEEA69C7B6E9 /* AlerDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97686589C34F4F254BA25DA2 /* AlerDataProtocol.swift */; };
+		49978130A182D76668C471C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F12432829DD717EDB5AFDFE /* Preview Assets.xcassets */; };
+		6114D7E38F1979CE7D620B5B /* AlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EAD9950EA7CB39B29DA1EC /* AlertTests.swift */; };
+		830E0F6C6CBAC2255491CD6C /* AlertData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC16C735B30783339A8E12A2 /* AlertData.swift */; };
 		ABCEAC85A7D77F6C5E35A534 /* TuistBundle+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F037D435D14A6E7CA3B099 /* TuistBundle+Alert.swift */; };
+		B44E11EBFD7BEB9B6376543A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1228668BDA098A445F857C6F /* Assets.xcassets */; };
 		C2429F5FDA54DA926AE077F5 /* TuistAssets+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBA7CF8BEBDF5CD2052714E /* TuistAssets+Alert.swift */; };
-		C3E2407EA365F8A9E12E226E /* AlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65F86073F4237BFA3EBA0B7 /* AlertTests.swift */; };
-		FC51CDACAC9BE047EEEC29A7 /* AlertData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D4B0775D3A22967BA8745 /* AlertData.swift */; };
+		CA58F73B2C4091125CF65727 /* CancellableAlertData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636D3254473407A57DE7FA57 /* CancellableAlertData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,19 +53,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		261E8E059A19589B73C7B5C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4F2D4B0775D3A22967BA8745 /* AlertData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertData.swift; sourceTree = "<group>"; };
+		1228668BDA098A445F857C6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		373C60A4201EECED98BFAAF7 /* UIViewController + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + extension.swift"; sourceTree = "<group>"; };
+		43EAD9950EA7CB39B29DA1EC /* AlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTests.swift; sourceTree = "<group>"; };
+		4F12432829DD717EDB5AFDFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5A5DE275E045E32E833B3C44 /* Alert-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Alert-Info.plist"; sourceTree = "<group>"; };
 		61C8C21F14F1584B0C1D8566 /* AlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		636D3254473407A57DE7FA57 /* CancellableAlertData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancellableAlertData.swift; sourceTree = "<group>"; };
 		63837092DCF4F439C1123C55 /* AlertTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AlertTests-Info.plist"; sourceTree = "<group>"; };
-		88248EDC0AD01498F46F56A9 /* CancellableAlertData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancellableAlertData.swift; sourceTree = "<group>"; };
+		97686589C34F4F254BA25DA2 /* AlerDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlerDataProtocol.swift; sourceTree = "<group>"; };
 		ACBA7CF8BEBDF5CD2052714E /* TuistAssets+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+Alert.swift"; sourceTree = "<group>"; };
 		D2F037D435D14A6E7CA3B099 /* TuistBundle+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+Alert.swift"; sourceTree = "<group>"; };
-		D65F86073F4237BFA3EBA0B7 /* AlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTests.swift; sourceTree = "<group>"; };
 		DA1316DD1459D4721A6E972E /* Alert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F805E089E2B173F414269144 /* UIViewController + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + extension.swift"; sourceTree = "<group>"; };
-		FAF2E3E90D41C3551B037580 /* AlerDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlerDataProtocol.swift; sourceTree = "<group>"; };
-		FF08D72D141560E2CE0CE82A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC16C735B30783339A8E12A2 /* AlertData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,23 +96,6 @@
 			path = InfoPlists;
 			sourceTree = "<group>";
 		};
-		0ABEEE0646ED389B9DF3EC97 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				8ACD1A0AF73A592E450558ED /* Preview Content */,
-				261E8E059A19589B73C7B5C7 /* Assets.xcassets */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		486E55844B58AD2193D3FFC9 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				D65F86073F4237BFA3EBA0B7 /* AlertTests.swift */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
 		49627F85057EA62DCF8634CA /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +122,17 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
+		6B7D441847C937B499A11D11 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				97686589C34F4F254BA25DA2 /* AlerDataProtocol.swift */,
+				EC16C735B30783339A8E12A2 /* AlertData.swift */,
+				636D3254473407A57DE7FA57 /* CancellableAlertData.swift */,
+				373C60A4201EECED98BFAAF7 /* UIViewController + extension.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
 		857F24678B2AF6DB50889B93 /* Derived */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,42 +142,48 @@
 			path = Derived;
 			sourceTree = "<group>";
 		};
-		8ACD1A0AF73A592E450558ED /* Preview Content */ = {
+		95312B53F97E81C145B264A0 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				FF08D72D141560E2CE0CE82A /* Preview Assets.xcassets */,
+				6B7D441847C937B499A11D11 /* Alert */,
 			);
-			path = "Preview Content";
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		A12BA7AD9F2F14A9990B25C4 /* Project */ = {
 			isa = PBXGroup;
 			children = (
-				C85DAAE50C628166BE39E55D /* Alert */,
 				857F24678B2AF6DB50889B93 /* Derived */,
+				E417612754AA34EBF958C669 /* Resources */,
+				95312B53F97E81C145B264A0 /* Sources */,
+				CEB6014B264650E4B77E7976 /* Tests */,
 			);
 			name = Project;
 			sourceTree = "<group>";
 		};
-		C85DAAE50C628166BE39E55D /* Alert */ = {
+		CEB6014B264650E4B77E7976 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				0ABEEE0646ED389B9DF3EC97 /* Resources */,
-				F91AE2427B0BBBD465774D4A /* Sources */,
-				486E55844B58AD2193D3FFC9 /* Tests */,
+				43EAD9950EA7CB39B29DA1EC /* AlertTests.swift */,
 			);
-			path = Alert;
+			path = Tests;
 			sourceTree = "<group>";
 		};
-		F91AE2427B0BBBD465774D4A /* Sources */ = {
+		E417612754AA34EBF958C669 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FAF2E3E90D41C3551B037580 /* AlerDataProtocol.swift */,
-				4F2D4B0775D3A22967BA8745 /* AlertData.swift */,
-				88248EDC0AD01498F46F56A9 /* CancellableAlertData.swift */,
-				F805E089E2B173F414269144 /* UIViewController + extension.swift */,
+				F84BEBAA68F9F232F2936BD9 /* Preview Content */,
+				1228668BDA098A445F857C6F /* Assets.xcassets */,
 			);
-			path = Sources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F84BEBAA68F9F232F2936BD9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4F12432829DD717EDB5AFDFE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,8 +264,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55CB8AE5DC64921B91F93029 /* Assets.xcassets in Resources */,
-				535F22CD5D19CF89EC143D1F /* Preview Assets.xcassets in Resources */,
+				B44E11EBFD7BEB9B6376543A /* Assets.xcassets in Resources */,
+				49978130A182D76668C471C5 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3E2407EA365F8A9E12E226E /* AlertTests.swift in Sources */,
+				6114D7E38F1979CE7D620B5B /* AlertTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,12 +291,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B89EA558DC1BAB426879B90 /* AlerDataProtocol.swift in Sources */,
-				FC51CDACAC9BE047EEEC29A7 /* AlertData.swift in Sources */,
-				4374BCC709770A76012674A9 /* CancellableAlertData.swift in Sources */,
-				A19F61A67E4A4ABD228088B7 /* UIViewController + extension.swift in Sources */,
 				C2429F5FDA54DA926AE077F5 /* TuistAssets+Alert.swift in Sources */,
 				ABCEAC85A7D77F6C5E35A534 /* TuistBundle+Alert.swift in Sources */,
+				38836C4FE307AEEA69C7B6E9 /* AlerDataProtocol.swift in Sources */,
+				830E0F6C6CBAC2255491CD6C /* AlertData.swift in Sources */,
+				CA58F73B2C4091125CF65727 /* CancellableAlertData.swift in Sources */,
+				1061C7CC18E23BFF1D0529FF /* UIViewController + extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,7 +443,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SRCROOT = /Users/admin/Alert;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -504,7 +503,6 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SRCROOT = /Users/admin/Alert;
 			};
 			name = Debug;
 		};

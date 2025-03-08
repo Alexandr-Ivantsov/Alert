@@ -9,8 +9,8 @@ let project = Project(
             product: .framework,
             bundleId: "io.tuist.Alert",
             infoPlist: .default,
-            sources: ["Alert/Sources/**"],
-            resources: ["Alert/Resources/**"],
+            sources: ["Sources/**"],
+            resources: ["Resources/**"],
             dependencies: []
         ),
         .target(
@@ -19,7 +19,7 @@ let project = Project(
             product: .unitTests,
             bundleId: "io.tuist.AlertTests",
             infoPlist: .default,
-            sources: ["Alert/Tests/**"],
+            sources: ["Tests/**"],
             resources: [],
             dependencies: [.target(name: "Alert")]
         ),
