@@ -10,8 +10,8 @@ import Foundation
 public struct AlertData: AlerDataProtocol {
     public let title: String
     public let message: String
-    let actionTitle: String
-    let actionHandler: (() -> Void)?
+    public let actionTitle: String
+    public let actionHandler: (() -> Void)?
     
     public init(
         title: String,

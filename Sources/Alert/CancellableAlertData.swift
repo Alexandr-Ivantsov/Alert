@@ -10,10 +10,10 @@ import Foundation
 public struct CancellableAlertData: AlerDataProtocol {
     public let title: String
     public let message: String
-    let confirmActionTitle: String
-    let cancelActionTitle: String
-    let confirmAction: (() -> Void)?
-    let cancelAction: (() -> Void)?
+	public let confirmActionTitle: String
+    public let cancelActionTitle: String
+    public let confirmAction: (() -> Void)?
+    public let cancelAction: (() -> Void)?
     
     public init(
         title: String,
