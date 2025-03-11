@@ -12,4 +12,16 @@ public struct AlertData: AlerDataProtocol {
     public let message: String
     let actionTitle: String
     let actionHandler: (() -> Void)?
+    
+    public init(
+        title: String,
+        message: String,
+        actionTitle: String,
+        actionHandler: (() -> Void)?
+    ) {
+        self.title = title
+        self.message = message
+        self.actionTitle = actionTitle
+        self.actionHandler = actionHandler
+    }
 }

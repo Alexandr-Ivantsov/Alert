@@ -14,4 +14,20 @@ public struct CancellableAlertData: AlerDataProtocol {
     let cancelActionTitle: String
     let confirmAction: (() -> Void)?
     let cancelAction: (() -> Void)?
+    
+    public init(
+        title: String,
+        message: String,
+        confirmActionTitle: String,
+        cancelActionTitle: String,
+        confirmAction: (() -> Void)?,
+        cancelAction: (() -> Void)?
+    ) {
+        self.title = title
+        self.message = message
+        self.confirmActionTitle = confirmActionTitle
+        self.cancelActionTitle = cancelActionTitle
+        self.confirmAction = confirmAction
+        self.cancelAction = cancelAction
+    }
 }
